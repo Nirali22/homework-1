@@ -7,4 +7,4 @@ def test_12a():
   assert task12.inp.shape[0]==225
   assert task12.inp.shape[1]==31 
 def test_12b():
-  assert round(pop_2010.sum(),0)==7065
+  assert round(task12.pop_2010.sum(),0)==7065
